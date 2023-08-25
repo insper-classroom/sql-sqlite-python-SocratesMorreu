@@ -15,6 +15,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
      SELECT * FROM vgsales_pbi WHERE platform = "XOne";
      ```
    - **Resultado**
+   ![Alt text](fotos_ex1/print1.png)
     
 
 
@@ -25,6 +26,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
        SELECT * FROM vgsales_pbi WHERE genre = 'Action' and year > 2011;
      ```
    - **Resultado**
+   ![Alt text](fotos_ex1/print2.png)
     
 
 
@@ -38,6 +40,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       LIMIT 5;
      ```
    - **Resultado**
+   ![Alt text](fotos_ex1/print3.png)
     
 
 
@@ -51,6 +54,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       LIMIT 5;
      ```
    - **Resultado**
+   ![Alt text](fotos_ex1/print4.png)
     
 
 
@@ -65,7 +69,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
         LIMIT 3;
      ```
    - **Resultado**
-    
+    ![Alt text](fotos_ex1/print5.png)
 
 
 	 
@@ -74,10 +78,11 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
    - **Query**:
      ```
       SELECT *
-    FROM vgsales_pbi
-    WHERE (genre = 'Role-Playing' OR genre = 'Strategy') AND year > 2005;
+      FROM vgsales_pbi
+      WHERE (genre = 'Role-Playing' OR genre = 'Strategy') AND year > 2005;
      ```
-   -![Alt text](fotos_ex1/print6.jpeg)
+   - **Resultado**
+   ![Alt text](fotos_ex1/print6.jpeg)
 
 
 
